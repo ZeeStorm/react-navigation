@@ -84,9 +84,9 @@ class Header extends React.PureComponent {
   _renderTitleComponent = props => {
     const { options } = props.scene.descriptor;
     const headerTitle = options.headerTitle;
-    if (React.isValidElement(headerTitle)) {
+    /*if (React.isValidElement(headerTitle)) {
       return headerTitle;
-    }
+    }*/
     const titleString = this._getHeaderTitleString(props.scene);
 
     const titleStyle = options.headerTitleStyle;
